@@ -19,4 +19,18 @@ public interface QwenService {
      * @return api回答
      */
     String callWithMultiple(String question) throws ApiException, NoApiKeyException, InputRequiredException;
+
+    /**
+     * 流式输出
+     * @param question 问题
+     * @return api回答
+     */
+    String callWithStream(String question) throws NoApiKeyException, InputRequiredException;
+
+    /**
+     * 多轮流式输出
+     * @param question 问题
+     * @return api回答
+     */
+    String callWithStreamAndMultiple(String question);
 }

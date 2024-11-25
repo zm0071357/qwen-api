@@ -43,7 +43,7 @@ public class QwenStreamTest {
     public static void main(String[] args) {
         try {
             Generation gen = new Generation();
-            Message userMsg = Message.builder().role(Role.USER.getValue()).content("你是谁？").build();
+            Message userMsg = Message.builder().role(Role.USER.getValue()).content("背诵静夜思").build();
             streamCallWithMessage(gen, userMsg);
         } catch (ApiException | NoApiKeyException | InputRequiredException  e) {
             logger.error("An exception occurred: {}", e.getMessage());

@@ -9,6 +9,7 @@ import com.alibaba.dashscope.exception.ApiException;
 import com.alibaba.dashscope.exception.InputRequiredException;
 import com.alibaba.dashscope.exception.NoApiKeyException;
 import com.qwen.api.service.QwenService;
+import io.reactivex.Flowable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +20,7 @@ import java.util.List;
 @Slf4j
 @Service
 public class QwenServiceImpl implements QwenService {
-    List<Message> messages = new ArrayList<>();
+    private static List<Message> messages = new ArrayList<>();
 
     /**
      * 构建消息对象的静态方法
@@ -34,11 +35,21 @@ public class QwenServiceImpl implements QwenService {
     /**
      * 构建QwenParam对象的静态方法
      * @param messages 消息集合
+     * @param isStream 是否开启流式输出
      * @return QwenParam对象
      */
-    public static GenerationParam createGenerationParam(List<Message> messages) {
-        return GenerationParam.builder()
-                // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
+    public static GenerationParam createGenerationParam(List<Message> messages, boolean isStream) {
+        return  isStream ?
+
+                GenerationParam.builder()
+                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+                .model("qwen-plus")
+                .messages(messages)
+                .resultFormat(GenerationParam.ResultFormat.MESSAGE)
+                .incrementalOutput(true)
+                .build():
+
+                GenerationParam.builder()
                 .apiKey(System.getenv("DASHSCOPE_API_KEY"))
                 .model("qwen-plus")
                 .messages(messages)
@@ -66,23 +77,7 @@ public class QwenServiceImpl implements QwenService {
 
         Message systemMsg = createMessage(Role.SYSTEM, "You are a helpful assistant.");
         Message userMsg = createMessage(Role.USER, question);
-//        Message systemMsg = Message.builder()
-//                .role(Role.SYSTEM.getValue())
-//                .content("You are a helpful assistant.")
-//                .build();
-//        Message userMsg = Message.builder()
-//                .role(Role.USER.getValue())
-//                .content(question)
-//                .build();
-//        GenerationParam param = GenerationParam.builder()
-//                // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
-//                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
-//                // 模型列表：https://help.aliyun.com/zh/model-studio/getting-started/models
-//                .model("qwen-plus")
-//                .messages(Arrays.asList(systemMsg, userMsg))
-//                .resultFormat(GenerationParam.ResultFormat.MESSAGE)
-//                .build();
-        GenerationParam param = createGenerationParam(Arrays.asList(systemMsg, userMsg));
+        GenerationParam param = createGenerationParam(Arrays.asList(systemMsg, userMsg), false);
         try {
             GenerationResult result = callGenerationWithMessages(param);
             String answer = result.getOutput().getChoices().get(0).getMessage().getContent();
@@ -97,10 +92,10 @@ public class QwenServiceImpl implements QwenService {
     @Override
     public String callWithMultiple(String question) throws ApiException, NoApiKeyException, InputRequiredException {
         log.info("用户提问:{}",question);
-        messages.add(createMessage(Role.SYSTEM, "You are a helpful assistant."));
         try {
+            messages.add(createMessage(Role.SYSTEM, "You are a helpful assistant."));
             messages.add(createMessage(Role.USER, question));
-            GenerationParam param = createGenerationParam(messages);
+            GenerationParam param = createGenerationParam(messages, false);
             GenerationResult result = callGenerationWithMessages(param);
             String answer = result.getOutput().getChoices().get(0).getMessage().getContent();
             log.info("模型返回:{}",answer);
@@ -108,6 +103,54 @@ public class QwenServiceImpl implements QwenService {
             return answer;
         } catch (ApiException | NoApiKeyException | InputRequiredException e) {
             log.info("错误信息:{}",e.getMessage());
+            return e.getMessage();
+        }
+    }
+
+    @Override
+    public String callWithStream(String question) throws NoApiKeyException, InputRequiredException {
+        log.info("用户提问:{}",question);
+        try {
+            Generation gen = new Generation();
+            Message systemMsg = createMessage(Role.SYSTEM, "You are a helpful assistant.");
+            Message userMsg = createMessage(Role.USER, question);
+            GenerationParam param = createGenerationParam(Arrays.asList(systemMsg, userMsg), true);
+            Flowable<GenerationResult> result = gen.streamCall(param);
+            StringBuilder fullContent = new StringBuilder();
+            result.blockingForEach(messages -> {
+                String content = messages.getOutput().getChoices().get(0).getMessage().getContent();
+                fullContent.append(content);
+                log.info("流式输出:{}",content);
+            });
+            log.info("模型返回:{}", fullContent.toString());
+            return fullContent.toString();
+        } catch (ApiException | NoApiKeyException | InputRequiredException e) {
+            log.info("错误信息:{}",e.getMessage());
+            return e.getMessage();
+        }
+    }
+
+    @Override
+    public String callWithStreamAndMultiple(String question) {
+        log.info("用户提问:{}",question);
+        messages.add(createMessage(Role.SYSTEM, "You are a helpful assistant."));
+        messages.add(createMessage(Role.USER, question));
+        GenerationParam param = createGenerationParam(messages, true);
+        StringBuilder fullContent = new StringBuilder();
+        try {
+            Generation gen = new Generation();
+            Flowable<GenerationResult> result = gen.streamCall(param);
+            result.blockingForEach(messages -> {
+                String content = messages.getOutput().getChoices().get(0).getMessage().getContent();
+                fullContent.append(content);
+                log.info("流式输出:{}", content);
+                // 将每次生成的消息加入到消息历史中
+                this.messages.add(messages.getOutput().getChoices().get(0).getMessage());
+            });
+            log.info("模型返回:{}", fullContent.toString());
+            return fullContent.toString();
+        } catch (ApiException | NoApiKeyException | InputRequiredException e) {
+            log.info("错误信息:{}", e.getMessage());
             return e.getMessage();
         }
     }

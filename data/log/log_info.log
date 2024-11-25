@@ -1,0 +1,64 @@
+24-11-25.10:22:32.275 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 14520 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:22:32.277 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:22:32.825 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:22:32.826 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:22:32.826 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:22:32.826 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:22:32.840 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:22:32.846 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:22:32.846 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:22:32.847 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:22:32.921 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:22:32.922 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 607 ms
+24-11-25.10:22:33.154 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:22:33.163 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:22:33.169 [main            ] INFO  Application            - Started Application in 1.247 seconds (JVM running for 2.13)
+24-11-25.10:22:33.170 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:22:37.324 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:22:37.324 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:22:37.325 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-25.10:23:41.144 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 12624 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:23:41.146 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:23:41.591 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:23:41.591 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:23:41.591 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:23:41.592 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:23:41.593 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:23:41.598 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:23:41.598 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:23:41.598 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:23:41.660 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:23:41.661 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 492 ms
+24-11-25.10:23:41.853 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:23:41.862 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:23:41.869 [main            ] INFO  Application            - Started Application in 0.979 seconds (JVM running for 1.663)
+24-11-25.10:23:41.870 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:23:46.099 [http-nio-7001-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:23:46.099 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:23:46.099 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.10:25:54.221 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 6276 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:25:54.222 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:25:54.719 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:25:54.720 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:25:54.720 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:25:54.720 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:25:54.722 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:25:54.727 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:25:54.727 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:25:54.727 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:25:54.787 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:25:54.787 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 544 ms
+24-11-25.10:25:55.012 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:25:55.025 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:25:55.030 [main            ] INFO  Application            - Started Application in 1.067 seconds (JVM running for 1.655)
+24-11-25.10:25:55.032 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:26:00.286 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:26:00.287 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:26:00.287 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.10:26:00.312 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.10:26:03.107 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:《静夜思》是唐代诗人李白的一首五言古诗，全文如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。

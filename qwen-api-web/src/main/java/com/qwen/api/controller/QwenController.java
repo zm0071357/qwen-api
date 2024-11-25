@@ -32,4 +32,13 @@ public class QwenController {
         return qwenService.callWithMultiple(question);
     }
 
+    @PostMapping("/call_with_stream")
+    public String callWithStream(@RequestParam String question) throws NoApiKeyException, InputRequiredException{
+        return qwenService.callWithStream(question);
+    }
+
+    @PostMapping("/call_with_stream/multiple")
+    public String callWithStreamAndMultiple(@RequestParam String question) throws NoApiKeyException, InputRequiredException{
+        return qwenService.callWithStreamAndMultiple(question);
+    }
 }

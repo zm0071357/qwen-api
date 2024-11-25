@@ -62,3 +62,1055 @@
 疑是地上霜。  
 举头望明月，  
 低头思故乡。
+24-11-25.10:48:38.955 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 24864 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:48:38.956 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:48:39.391 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:48:39.391 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:48:39.391 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:48:39.391 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:48:39.393 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:48:39.397 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:48:39.398 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:48:39.398 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:48:39.457 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:48:39.458 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 478 ms
+24-11-25.10:48:39.658 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:48:39.669 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:48:39.675 [main            ] INFO  Application            - Started Application in 0.975 seconds (JVM running for 1.608)
+24-11-25.10:48:39.678 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:49:10.978 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:49:10.978 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:49:10.979 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-25.10:49:10.995 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.10:49:11.878 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.10:49:11.884 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静
+24-11-25.10:49:11.908 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜
+24-11-25.10:49:11.953 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思
+24-11-25.10:49:12.171 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人
+24-11-25.10:49:12.321 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首
+24-11-25.10:49:12.512 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗
+24-11-25.10:49:12.856 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下
+24-11-25.10:49:12.881 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明
+24-11-25.10:49:14.134 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+
+24-11-25.10:49:14.775 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜
+24-11-25.10:49:15.263 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头
+24-11-25.10:49:15.738 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，
+24-11-25.10:49:15.906 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡
+24-11-25.10:49:16.141 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了
+24-11-25.10:49:16.396 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的
+24-11-25.10:49:16.536 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮
+24-11-25.10:49:16.771 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而
+24-11-25.10:49:16.942 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方
+24-11-25.10:49:17.146 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方家乡的思念之情
+24-11-25.10:49:17.244 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方家乡的思念之情。
+24-11-25.10:49:17.244 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:《《静《静夜《静夜思《静夜思》是唐代诗人《静夜思》是唐代诗人李白创作的一首《静夜思》是唐代诗人李白创作的一首五言古诗《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方家乡的思念之情《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+
+这首诗表达了作者在寂静的夜晚，看到明亮的月光而引发的对远方家乡的思念之情。
+24-11-25.10:50:46.079 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 14168 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:50:46.080 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:50:46.558 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:50:46.559 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:50:46.559 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:50:46.559 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:50:46.561 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:50:46.565 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:50:46.565 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:50:46.566 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:50:46.624 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:50:46.624 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 523 ms
+24-11-25.10:50:46.824 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:50:46.836 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:50:46.843 [main            ] INFO  Application            - Started Application in 1.016 seconds (JVM running for 1.615)
+24-11-25.10:50:46.844 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:50:49.016 [http-nio-7001-exec-3] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:50:49.016 [http-nio-7001-exec-3] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:50:49.017 [http-nio-7001-exec-3] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-25.10:50:49.040 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.10:50:49.957 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的
+24-11-25.10:50:49.964 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，
+24-11-25.10:50:50.777 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是
+24-11-25.10:50:50.777 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白
+24-11-25.10:50:51.004 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜
+24-11-25.10:50:51.107 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床
+24-11-25.10:50:51.288 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光
+24-11-25.10:50:51.451 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是
+24-11-25.10:50:51.619 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+
+24-11-25.10:50:51.856 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明
+24-11-25.10:50:52.004 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头
+24-11-25.10:50:52.376 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.10:50:52.376 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 模型返回:好的好的，好的，这是好的，这是李白好的，这是李白的《静夜好的，这是李白的《静夜思》：
+
+床好的，这是李白的《静夜思》：
+
+床前明月光好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.10:52:17.466 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 9744 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:52:17.468 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:52:17.907 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:52:17.908 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:52:17.908 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:52:17.908 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:52:17.909 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:52:17.913 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:52:17.913 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:52:17.914 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:52:17.974 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:52:17.975 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 484 ms
+24-11-25.10:52:18.182 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:52:18.193 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:52:18.198 [main            ] INFO  Application            - Started Application in 0.985 seconds (JVM running for 1.606)
+24-11-25.10:52:18.200 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:52:22.692 [http-nio-7001-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:52:22.692 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:52:22.692 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.10:52:22.707 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.10:52:23.692 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的
+24-11-25.10:52:23.693 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，
+24-11-25.10:52:23.723 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是
+24-11-25.10:52:23.779 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白
+24-11-25.10:52:24.216 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜
+24-11-25.10:52:24.296 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床
+24-11-25.10:52:24.563 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光
+24-11-25.10:52:24.701 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是
+24-11-25.10:52:24.907 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+
+24-11-25.10:52:25.496 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明
+24-11-25.10:52:25.697 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头
+24-11-25.10:52:25.911 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.10:52:25.912 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 模型返回:好的好的，好的，这是好的，这是李白好的，这是李白的《静夜好的，这是李白的《静夜思》：
+
+床好的，这是李白的《静夜思》：
+
+床前明月光好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.10:59:14.170 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 16020 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.10:59:14.171 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.10:59:14.682 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.10:59:14.682 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.10:59:14.682 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.10:59:14.682 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.10:59:14.684 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.10:59:14.689 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.10:59:14.690 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.10:59:14.690 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.10:59:14.753 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.10:59:14.753 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 559 ms
+24-11-25.10:59:14.958 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.10:59:14.968 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.10:59:14.973 [main            ] INFO  Application            - Started Application in 1.059 seconds (JVM running for 1.643)
+24-11-25.10:59:14.974 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.10:59:18.496 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.10:59:18.496 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.10:59:18.498 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-11-25.10:59:18.511 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.10:59:19.408 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的
+24-11-25.10:59:19.422 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，
+24-11-25.10:59:20.108 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是
+24-11-25.10:59:20.144 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白
+24-11-25.10:59:20.549 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜
+24-11-25.10:59:20.582 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床
+24-11-25.10:59:20.764 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光
+24-11-25.10:59:20.928 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是
+24-11-25.10:59:21.146 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+
+24-11-25.10:59:21.274 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明
+24-11-25.10:59:21.470 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头
+24-11-25.10:59:21.632 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.10:59:21.632 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的好的，好的，这是好的，这是李白好的，这是李白的《静夜好的，这是李白的《静夜思》：
+
+床好的，这是李白的《静夜思》：
+
+床前明月光好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.11:02:47.551 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 6684 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.11:02:47.552 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.11:02:47.999 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.11:02:47.999 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.11:02:47.999 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.11:02:47.999 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.11:02:48.001 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.11:02:48.005 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.11:02:48.006 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.11:02:48.006 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.11:02:48.073 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.11:02:48.073 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 499 ms
+24-11-25.11:02:48.273 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.11:02:48.284 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.11:02:48.289 [main            ] INFO  Application            - Started Application in 0.992 seconds (JVM running for 1.596)
+24-11-25.11:02:48.291 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.11:02:50.776 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.11:02:50.776 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.11:02:50.776 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.11:02:50.791 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:02:51.775 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.11:02:51.776 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静
+24-11-25.11:02:51.834 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜
+24-11-25.11:02:51.887 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思
+24-11-25.11:02:52.051 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人
+24-11-25.11:02:52.169 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首
+24-11-25.11:02:52.343 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗
+24-11-25.11:02:52.444 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下
+24-11-25.11:02:52.695 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明
+24-11-25.11:02:52.762 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑
+24-11-25.11:02:52.965 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+
+24-11-25.11:02:53.189 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明
+24-11-25.11:02:53.305 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思
+24-11-25.11:02:53.543 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。
+24-11-25.11:02:53.543 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:《《静《静夜《静夜思《静夜思》是唐代诗人《静夜思》是唐代诗人李白创作的一首《静夜思》是唐代诗人李白创作的一首五言古诗《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。
+24-11-25.11:04:51.776 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 14956 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.11:04:51.778 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.11:04:52.218 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.11:04:52.219 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.11:04:52.219 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.11:04:52.219 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.11:04:52.221 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.11:04:52.224 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.11:04:52.224 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.11:04:52.224 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.11:04:52.285 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.11:04:52.285 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+24-11-25.11:04:52.503 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.11:04:52.513 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.11:04:52.519 [main            ] INFO  Application            - Started Application in 1.001 seconds (JVM running for 1.671)
+24-11-25.11:04:52.521 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.11:04:56.492 [http-nio-7001-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.11:04:56.492 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.11:04:56.492 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.11:04:56.508 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:04:57.422 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.11:04:57.426 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:静
+24-11-25.11:04:57.475 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:夜
+24-11-25.11:04:57.524 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:思
+24-11-25.11:04:57.792 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:》是唐代诗人
+24-11-25.11:04:58.469 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:李白的著名诗
+24-11-25.11:04:58.470 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:作，全文如下
+24-11-25.11:04:58.645 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:：
+
+床前明
+24-11-25.11:04:58.795 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:月光，  
+
+24-11-25.11:04:59.425 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:疑是地上霜
+24-11-25.11:04:59.425 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:。  
+举头
+24-11-25.11:04:59.503 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:望明月，
+24-11-25.11:04:59.738 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:  
+低头思故乡
+24-11-25.11:04:59.802 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:。
+24-11-25.11:04:59.835 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.11:04:59.835 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 模型返回:《静夜思》是唐代诗人李白的著名诗作，全文如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.11:05:24.802 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 11984 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.11:05:24.804 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.11:05:25.234 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.11:05:25.235 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.11:05:25.235 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.11:05:25.235 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.11:05:25.236 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.11:05:25.240 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.11:05:25.240 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.11:05:25.240 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.11:05:25.305 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.11:05:25.306 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 479 ms
+24-11-25.11:05:25.503 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.11:05:25.512 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.11:05:25.518 [main            ] INFO  Application            - Started Application in 0.963 seconds (JVM running for 1.588)
+24-11-25.11:05:25.520 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.11:05:27.832 [http-nio-7001-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.11:05:27.832 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.11:05:27.833 [http-nio-7001-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-25.11:05:27.852 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:05:28.791 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.11:05:28.798 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:静
+24-11-25.11:05:28.827 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:夜
+24-11-25.11:05:28.857 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:思
+24-11-25.11:05:29.022 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:》是唐代诗人
+24-11-25.11:05:29.248 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:李白创作的一首
+24-11-25.11:05:29.346 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:五言古诗
+24-11-25.11:05:29.531 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:，全文如下：
+
+
+24-11-25.11:05:29.626 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:床前明月
+24-11-25.11:05:30.144 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:光，  
+疑
+24-11-25.11:05:30.144 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:是地上霜。
+24-11-25.11:05:30.144 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:  
+举头望
+24-11-25.11:05:30.251 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:明月，  
+
+24-11-25.11:05:30.355 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:低头思故乡。
+24-11-25.11:05:30.425 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.11:05:30.425 [http-nio-7001-exec-2] INFO  QwenServiceImpl        - 模型返回:《静夜思》是唐代诗人李白创作的一首五言古诗，全文如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.11:05:44.959 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:05:45.195 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 错误信息:{"statusCode":400,"message":"parameter incremental_output only support stream call","code":"InvalidParameter","isJson":true,"requestId":"f724a5d1-f316-95f3-8719-4f142ccff6c0"}
+24-11-25.11:09:13.499 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 22996 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.11:09:13.500 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.11:09:13.933 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.11:09:13.933 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.11:09:13.934 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.11:09:13.934 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.11:09:13.935 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.11:09:13.940 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.11:09:13.940 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.11:09:13.940 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.11:09:14.001 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.11:09:14.001 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+24-11-25.11:09:14.200 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.11:09:14.210 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.11:09:14.215 [main            ] INFO  Application            - Started Application in 0.975 seconds (JVM running for 1.629)
+24-11-25.11:09:14.216 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.11:09:18.717 [http-nio-7001-exec-5] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.11:09:18.717 [http-nio-7001-exec-5] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.11:09:18.717 [http-nio-7001-exec-5] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.11:09:18.739 [http-nio-7001-exec-5] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:09:22.601 [http-nio-7001-exec-5] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.11:09:26.500 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.11:09:27.081 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.11:09:27.089 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:静
+24-11-25.11:09:27.105 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:夜
+24-11-25.11:09:27.129 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:思
+24-11-25.11:09:28.218 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:》是唐代诗人
+24-11-25.11:09:28.218 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:李白创作的一首
+24-11-25.11:09:28.294 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:五言古诗
+24-11-25.11:09:28.408 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:，全诗如下
+24-11-25.11:09:28.601 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:：
+
+床前明
+24-11-25.11:09:29.186 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:月光，  
+
+24-11-25.11:09:29.186 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:疑是地上霜
+24-11-25.11:09:29.283 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:。  
+举头
+24-11-25.11:09:29.830 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:望明月，
+24-11-25.11:09:29.831 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:  
+低头思故乡
+24-11-25.11:09:29.848 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:。
+24-11-25.11:09:29.903 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.11:09:29.903 [http-nio-7001-exec-7] INFO  QwenServiceImpl        - 模型返回:《静夜思》是唐代诗人李白创作的一首五言古诗，全诗如下：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.13:27:07.791 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 25728 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.13:27:07.793 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.13:27:08.241 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.13:27:08.241 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.13:27:08.241 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.13:27:08.242 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.13:27:08.244 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.13:27:08.248 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.13:27:08.248 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.13:27:08.248 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.13:27:08.313 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.13:27:08.313 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+24-11-25.13:27:08.528 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.13:27:08.539 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.13:27:08.545 [main            ] INFO  Application            - Started Application in 1.021 seconds (JVM running for 1.679)
+24-11-25.13:27:08.546 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.13:27:53.410 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.13:27:53.410 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.13:27:53.410 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.13:27:53.436 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.13:27:54.362 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:好的
+24-11-25.13:27:54.362 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的
+24-11-25.13:27:54.366 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:，
+24-11-25.13:27:54.366 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，
+24-11-25.13:27:54.403 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:这是
+24-11-25.13:27:54.403 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是
+24-11-25.13:27:54.436 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:李白
+24-11-25.13:27:54.436 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白
+24-11-25.13:27:54.619 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:的《静夜
+24-11-25.13:27:54.620 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜
+24-11-25.13:27:54.746 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:思》：
+
+床
+24-11-25.13:27:54.746 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床
+24-11-25.13:27:54.958 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:前明月光
+24-11-25.13:27:54.958 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光
+24-11-25.13:27:55.069 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:，  
+疑是
+24-11-25.13:27:55.069 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是
+24-11-25.13:27:55.246 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:地上霜。  
+
+24-11-25.13:27:55.246 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+
+24-11-25.13:27:55.388 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:举头望明
+24-11-25.13:27:55.389 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明
+24-11-25.13:27:55.648 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:月，  
+低头
+24-11-25.13:27:55.649 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头
+24-11-25.13:27:55.789 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:思故乡。
+24-11-25.13:27:55.789 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.13:27:55.831 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.13:27:55.831 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.13:28:08.706 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 用户提问:这首诗的思想感情
+24-11-25.13:28:09.201 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:李白
+24-11-25.13:28:09.202 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白
+24-11-25.13:28:09.202 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:的
+24-11-25.13:28:09.203 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的
+24-11-25.13:28:09.203 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.13:28:09.203 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《
+24-11-25.13:28:09.203 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:静
+24-11-25.13:28:09.203 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静
+24-11-25.13:28:09.476 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:夜思》是一
+24-11-25.13:28:09.476 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一
+24-11-25.13:28:09.556 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:首表达思乡
+24-11-25.13:28:09.556 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡
+24-11-25.13:28:09.727 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:之情的诗作
+24-11-25.13:28:09.727 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作
+24-11-25.13:28:09.897 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:。全诗通过
+24-11-25.13:28:09.897 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过
+24-11-25.13:28:10.106 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:描写夜晚看到明亮
+24-11-25.13:28:10.107 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮
+24-11-25.13:28:10.172 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:的月光，
+24-11-25.13:28:10.172 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，
+24-11-25.13:28:10.339 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:联想到地上的
+24-11-25.13:28:10.340 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的
+24-11-25.13:28:10.473 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:白霜，进而
+24-11-25.13:28:10.473 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而
+24-11-25.13:28:10.801 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:引发出对远方
+24-11-25.13:28:10.801 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方
+24-11-25.13:28:10.801 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:家乡的思念。
+24-11-25.13:28:10.802 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。
+24-11-25.13:28:10.880 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:诗中的“举
+24-11-25.13:28:10.881 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举
+24-11-25.13:28:11.124 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:头望明月
+24-11-25.13:28:11.124 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月
+24-11-25.13:28:11.245 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:，低头思故乡
+24-11-25.13:28:11.245 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡
+24-11-25.13:28:11.467 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:”两句，更是
+24-11-25.13:28:11.468 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是
+24-11-25.13:28:11.681 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:直接表达了诗人抬头
+24-11-25.13:28:11.681 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:仰望月亮时
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:，心中涌起
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:的对故乡的
+24-11-25.13:28:12.417 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的
+24-11-25.13:28:12.521 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:深切怀念。整
+24-11-25.13:28:12.521 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整
+24-11-25.13:28:12.769 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:首诗语言简洁
+24-11-25.13:28:12.770 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁
+24-11-25.13:28:13.040 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:、意境深远，
+24-11-25.13:28:13.040 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，
+24-11-25.13:28:13.138 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:成功地传达了
+24-11-25.13:28:13.138 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了
+24-11-25.13:28:13.309 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:作者在异乡
+24-11-25.13:28:13.309 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡
+24-11-25.13:28:13.407 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:孤独、思乡
+24-11-25.13:28:13.407 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡
+24-11-25.13:28:13.578 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:心切的情感，
+24-11-25.13:28:13.578 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡心切的情感，
+24-11-25.13:28:13.825 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:同时也引发了读者对于
+24-11-25.13:28:13.825 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡心切的情感，同时也引发了读者对于
+24-11-25.13:28:14.010 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:家和远方的
+24-11-25.13:28:14.011 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡心切的情感，同时也引发了读者对于家和远方的
+24-11-25.13:28:15.284 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:共鸣。
+24-11-25.13:28:15.284 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡心切的情感，同时也引发了读者对于家和远方的共鸣。
+24-11-25.13:28:15.284 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.13:28:15.284 [http-nio-7001-exec-9] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。李白的《静夜思》是一首表达思乡之情的诗作。全诗通过描写夜晚看到明亮的月光，联想到地上的白霜，进而引发出对远方家乡的思念。诗中的“举头望明月，低头思故乡”两句，更是直接表达了诗人抬头仰望月亮时，心中涌起的对故乡的深切怀念。整首诗语言简洁、意境深远，成功地传达了作者在异乡孤独、思乡心切的情感，同时也引发了读者对于家和远方的共鸣。
+24-11-25.13:30:24.969 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 15176 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.13:30:24.970 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.13:30:25.425 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.13:30:25.426 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.13:30:25.426 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.13:30:25.426 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.13:30:25.427 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.13:30:25.432 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.13:30:25.432 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.13:30:25.432 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.13:30:25.491 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.13:30:25.491 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+24-11-25.13:30:25.683 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.13:30:25.694 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.13:30:25.699 [main            ] INFO  Application            - Started Application in 0.991 seconds (JVM running for 1.643)
+24-11-25.13:30:25.701 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.13:30:36.321 [http-nio-7001-exec-3] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.13:30:36.321 [http-nio-7001-exec-3] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.13:30:36.322 [http-nio-7001-exec-3] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-25.13:30:36.356 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 用户提问:背诵静夜思
+24-11-25.13:30:37.165 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:好的
+24-11-25.13:30:37.166 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:，
+24-11-25.13:30:37.257 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:这是
+24-11-25.13:30:37.276 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:李白
+24-11-25.13:30:37.444 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:的《静夜
+24-11-25.13:30:37.565 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:思》：
+
+床
+24-11-25.13:30:37.736 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:前明月光
+24-11-25.13:30:37.879 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:，  
+疑是
+24-11-25.13:30:38.067 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:地上霜。  
+
+24-11-25.13:30:38.169 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:举头望明
+24-11-25.13:30:38.350 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:月，  
+低头
+24-11-25.13:30:38.517 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:思故乡。
+24-11-25.13:30:38.562 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.13:30:38.564 [http-nio-7001-exec-3] INFO  QwenServiceImpl        - 模型返回:好的，这是李白的《静夜思》：
+
+床前明月光，  
+疑是地上霜。  
+举头望明月，  
+低头思故乡。
+24-11-25.13:30:48.209 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 用户提问:这首诗的思想感情
+24-11-25.13:30:48.886 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:李白
+24-11-25.13:30:48.886 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:的
+24-11-25.13:30:48.887 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:《
+24-11-25.13:30:48.887 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:静
+24-11-25.13:30:48.937 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:夜思》表达了
+24-11-25.13:30:49.091 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:作者在寂静的
+24-11-25.13:30:49.317 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:夜晚对家乡的
+24-11-25.13:30:49.528 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:深切思念之情。
+24-11-25.13:30:49.685 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:这首诗通过描述
+24-11-25.13:30:49.932 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:月光和地
+24-11-25.13:30:50.114 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:上的霜，营造
+24-11-25.13:30:50.320 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:出一种清冷
+24-11-25.13:30:50.524 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:、孤寂的
+24-11-25.13:30:50.677 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:氛围，反映了诗人
+24-11-25.13:30:50.934 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:身处异乡时
+24-11-25.13:30:51.446 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:的孤独感。
+24-11-25.13:30:51.446 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:"举头望
+24-11-25.13:30:51.566 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:明月，低头
+24-11-25.13:30:51.817 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:思故乡"这两
+24-11-25.13:30:51.965 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:句更是直接抒
+24-11-25.13:30:52.182 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:发了诗人对
+24-11-25.13:30:52.393 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:远方家乡的怀念
+24-11-25.13:30:52.589 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:，展现了他对亲人
+24-11-25.13:30:52.997 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:和故土的
+24-11-25.13:30:53.149 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:深深眷恋。
+24-11-25.13:30:53.287 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:整首诗情感
+24-11-25.13:30:53.498 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:真挚，语言
+24-11-25.13:30:53.657 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:简练，意境
+24-11-25.13:30:54.004 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:深远，是中国古典
+24-11-25.13:30:54.591 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:文学中表达思
+24-11-25.13:30:54.799 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:乡之情的经典之作
+24-11-25.13:30:54.852 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:。
+24-11-25.13:30:54.929 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:
+24-11-25.13:30:54.930 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:李白的《静夜思》表达了作者在寂静的夜晚对家乡的深切思念之情。这首诗通过描述月光和地上的霜，营造出一种清冷、孤寂的氛围，反映了诗人身处异乡时的孤独感。"举头望明月，低头思故乡"这两句更是直接抒发了诗人对远方家乡的怀念，展现了他对亲人和故土的深深眷恋。整首诗情感真挚，语言简练，意境深远，是中国古典文学中表达思乡之情的经典之作。

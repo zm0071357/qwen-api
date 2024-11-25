@@ -7,7 +7,7 @@ import com.alibaba.dashscope.exception.UploadFileException;
 public interface QwenPicService {
 
     /**
-     * 单照片识别
+     * 图片识别
      * @param pic 图片路径
      * @param question 提问
      * @return api回答
@@ -16,4 +16,27 @@ public interface QwenPicService {
      */
     String callWithPic(String pic, String question) throws NoApiKeyException, UploadFileException;
 
+    /**
+     * 图片识别并进行多轮对话
+     * @param pic 图片路径
+     * @param question 提问
+     * @return api回答
+     */
+    String callWithPicMultiple(String pic, String question) throws NoApiKeyException, UploadFileException;
+
+    /**
+     * 图片识别后流式输出
+     * @param pic 图片路径
+     * @param question 提问
+     * @return api回答
+     */
+    String callWithPicStream(String pic, String question) throws NoApiKeyException, UploadFileException;
+
+    /**
+     * 图片识别后多轮流式输出
+     * @param pic 图片路径
+     * @param question 提问
+     * @return api回答
+     */
+    String callWithPicMultipleAndStream(String pic, String question);
 }

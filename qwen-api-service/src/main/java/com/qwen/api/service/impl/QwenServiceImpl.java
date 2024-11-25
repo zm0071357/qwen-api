@@ -40,22 +40,16 @@ public class QwenServiceImpl implements QwenService {
      * @return QwenParam对象
      */
     public static GenerationParam createGenerationParam(List<Message> messages, boolean isStream) {
-        return  isStream ?
-
-                GenerationParam.builder()
-                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
-                .model("qwen-plus")
-                .messages(messages)
-                .resultFormat(GenerationParam.ResultFormat.MESSAGE)
-                .incrementalOutput(true)
-                .build():
-
-                GenerationParam.builder()
+        GenerationParam param = GenerationParam.builder()
                 .apiKey(System.getenv("DASHSCOPE_API_KEY"))
                 .model("qwen-plus")
                 .messages(messages)
                 .resultFormat(GenerationParam.ResultFormat.MESSAGE)
                 .build();
+        if (isStream) {
+            param.setIncrementalOutput(true);
+        }
+        return param;
     }
 
     /**

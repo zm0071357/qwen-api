@@ -19,6 +19,7 @@ public class QwenPicMultipleTest {
         MultiModalConversation conv = new MultiModalConversation();
         MultiModalMessage systemMessage = MultiModalMessage.builder().role(Role.SYSTEM.getValue())
                 .content(Arrays.asList(Collections.singletonMap("text", "You are a helpful assistant."))).build();
+
         MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
                 .content(Arrays.asList(Collections.singletonMap("image", "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"),
                         Collections.singletonMap("text", "这是什么?"))).build();
@@ -30,6 +31,7 @@ public class QwenPicMultipleTest {
                 .apiKey(System.getenv("DASHSCOPE_API_KEY"))                .model(modelName)
                 .messages(messages)
                 .build();
+
         MultiModalConversationResult result = conv.call(param);
         System.out.println("第一轮输出："+result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));        // add the result to conversation
         messages.add(result.getOutput().getChoices().get(0).getMessage());

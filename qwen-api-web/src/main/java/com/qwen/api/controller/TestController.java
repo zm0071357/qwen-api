@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
 /**
- * 通义千问接口
+ * 通义千问测试接口
  */
 @RestController
 @RequestMapping("/qwen")
-public class QwenController {
+public class TestController {
 
     @Resource
     private QwenService qwenService;
@@ -23,7 +23,7 @@ public class QwenController {
     private QwenPicService qwenPicService;
 
     @GetMapping("/test")
-    public String test() {
+    public String hello() {
         return "hello";
     }
 
@@ -53,4 +53,21 @@ public class QwenController {
         return qwenPicService.callWithPic(pic, question);
     }
 
+    @PostMapping("/call_with_pic/multiple")
+    public String callWithPicMultiple(@RequestParam(required = false) String pic,
+                                      @RequestParam(defaultValue = "这是什么", required = false) String question) throws NoApiKeyException, InputRequiredException, UploadFileException {
+        return qwenPicService.callWithPicMultiple(pic, question);
+    }
+
+    @PostMapping("/call_with_pic/stream")
+    public String callWithPicStream(@RequestParam String pic,
+                                    @RequestParam(defaultValue = "这是什么", required = false) String question) throws NoApiKeyException, InputRequiredException, UploadFileException {
+        return qwenPicService.callWithPicStream(pic, question);
+    }
+
+    @PostMapping("/call_with_pic/multiple_stream")
+    public String callWithPicMultipleAndStream(@RequestParam String pic,
+                                               @RequestParam(defaultValue = "这是什么", required = false) String question) throws NoApiKeyException, InputRequiredException, UploadFileException {
+        return qwenPicService.callWithPicMultipleAndStream(pic, question);
+    }
 }

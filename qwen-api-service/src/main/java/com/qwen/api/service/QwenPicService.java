@@ -38,5 +38,13 @@ public interface QwenPicService {
      * @param question 提问
      * @return api回答
      */
-    String callWithPicMultipleAndStream(String pic, String question);
+    String callWithPicMultipleAndStream(String pic, String question) throws NoApiKeyException, UploadFileException;
+
+    /**
+     * 文字提取
+     * @param pic 图片路径
+     * @param question 提问
+     * @return qpi回答
+     */
+    String textExtraction(String pic, String question) throws NoApiKeyException, UploadFileException;
 }

@@ -3,6 +3,7 @@ package com.qwen.api.controller;
 import com.alibaba.dashscope.exception.InputRequiredException;
 import com.alibaba.dashscope.exception.NoApiKeyException;
 import com.alibaba.dashscope.exception.UploadFileException;
+import com.qwen.api.service.QwenCreatePicService;
 import com.qwen.api.service.QwenPicService;
 import com.qwen.api.service.QwenService;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +22,9 @@ public class TestController {
 
     @Resource
     private QwenPicService qwenPicService;
+
+    @Resource
+    private QwenCreatePicService qwenCreatePicService;
 
     @GetMapping("/test")
     public String hello() {
@@ -66,8 +70,25 @@ public class TestController {
     }
 
     @PostMapping("/call_with_pic/multiple_stream")
-    public String callWithPicMultipleAndStream(@RequestParam String pic,
+    public String callWithPicMultipleAndStream(@RequestParam(required = false) String pic,
                                                @RequestParam(defaultValue = "这是什么", required = false) String question) throws NoApiKeyException, InputRequiredException, UploadFileException {
         return qwenPicService.callWithPicMultipleAndStream(pic, question);
+    }
+
+    @PostMapping("/call_with_pic/extraction")
+    public String textExtraction(@RequestParam(required = false) String pic,
+                                 @RequestParam(defaultValue = "Read all the text in the image.") String question) throws NoApiKeyException, UploadFileException {
+        return qwenPicService.textExtraction(pic, question);
+    }
+
+    @PostMapping("/create_pic")
+    public String createPic(@RequestParam String prompt) {
+        return qwenCreatePicService.createPic(prompt);
+    }
+
+    @PostMapping("/create_pic/with_reference")
+    public String createPicWithReference(@RequestParam String pic,
+                                         @RequestParam String prompt) {
+        return qwenCreatePicService.createPicWithReference(pic, prompt);
     }
 }

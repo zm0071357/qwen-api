@@ -7,6 +7,7 @@ import com.alibaba.dashscope.common.Message;
 import com.alibaba.dashscope.common.MultiModalMessage;
 import com.alibaba.dashscope.common.Role;
 import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.InputRequiredException;
 import com.alibaba.dashscope.exception.NoApiKeyException;
 import com.alibaba.dashscope.exception.UploadFileException;
 import com.alibaba.dashscope.utils.JsonUtils;
@@ -124,8 +125,63 @@ public class QwenPicServiceImpl implements QwenPicService {
     }
 
     @Override
-    public String callWithPicMultipleAndStream(String pic, String question) {
-        return null;
+    public String callWithPicMultipleAndStream(String pic, String question) throws NoApiKeyException, UploadFileException {
+        log.info("用户图片:{},提问:{}", pic, question);
+        try {
+            MultiModalConversation conv = new MultiModalConversation();
+            MultiModalMessage systemMessage = createMultiModalMessage(Role.SYSTEM, Arrays.asList(
+                    new HashMap<String, Object>(){{put("text", "You are a helpful assistant.");}}));
+            MultiModalMessage userMessage = null;
+            if (pic != null) {
+                userMessage = createMultiModalMessage(Role.USER, Arrays.asList(
+                        new HashMap<String, Object>(){{put("image", pic);}},
+                        new HashMap<String, Object>(){{put("text", question);}}));
+            } else {
+                userMessage = createMultiModalMessage(Role.USER,
+                        Arrays.asList(new HashMap<String, Object>(){{put("text", question);}}));
+            }
+            messages.add(systemMessage);
+            messages.add(userMessage);
+            MultiModalConversationParam param = createMultiModalConversationParam(messages, true);
+            StringBuilder fullContent = new StringBuilder();
+            Flowable<MultiModalConversationResult> result = conv.streamCall(param);
+            result.blockingForEach(item -> {
+                String content = (String) item.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
+                fullContent.append(content);
+                log.info("流式输出:{}",content);
+                this.messages.add(item.getOutput().getChoices().get(0).getMessage());
+            });
+            log.info("模型返回:{}", fullContent.toString());
+            return fullContent.toString();
+        } catch (Exception e) {
+            log.info("错误信息:{}", e.getMessage());
+            return e.getMessage();
+        }
+
+    }
+
+    @Override
+    public String textExtraction(String pic, String question) throws NoApiKeyException, UploadFileException {
+        MultiModalConversation conv = new MultiModalConversation();
+        Map<String, Object> map = new HashMap<>();
+        map.put("image", pic);
+        map.put("max_pixels", "1003520");
+        map.put("min_pixels", "3136");
+        MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+                .content(Arrays.asList(
+                        map,
+                        Collections.singletonMap("text", question))).build();
+        MultiModalConversationParam param = MultiModalConversationParam.builder()
+                // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
+                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+                .model("qwen-vl-ocr")
+                .message(userMessage)
+                .topP(0.01)
+                .temperature(0.1f)
+                .maxLength(2000)
+                .build();
+        MultiModalConversationResult result = conv.call(param);
+        return (String) result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
     }
 
 

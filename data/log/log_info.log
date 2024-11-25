@@ -1114,3 +1114,24 @@
 24-11-25.13:30:54.852 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:。
 24-11-25.13:30:54.929 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 流式输出:
 24-11-25.13:30:54.930 [http-nio-7001-exec-1] INFO  QwenServiceImpl        - 模型返回:李白的《静夜思》表达了作者在寂静的夜晚对家乡的深切思念之情。这首诗通过描述月光和地上的霜，营造出一种清冷、孤寂的氛围，反映了诗人身处异乡时的孤独感。"举头望明月，低头思故乡"这两句更是直接抒发了诗人对远方家乡的怀念，展现了他对亲人和故土的深深眷恋。整首诗情感真挚，语言简练，意境深远，是中国古典文学中表达思乡之情的经典之作。
+24-11-25.14:21:33.939 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 3420 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-25.14:21:33.941 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-25.14:21:34.469 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-25.14:21:34.470 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-25.14:21:34.470 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-25.14:21:34.470 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-25.14:21:34.473 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-25.14:21:34.478 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-25.14:21:34.479 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-25.14:21:34.479 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-25.14:21:34.561 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-25.14:21:34.561 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+24-11-25.14:21:34.847 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-25.14:21:34.860 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-25.14:21:34.865 [main            ] INFO  Application            - Started Application in 1.239 seconds (JVM running for 2.077)
+24-11-25.14:21:34.867 [main            ] INFO  Application            - 通义千问服务启动
+24-11-25.14:21:38.294 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-25.14:21:38.295 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-25.14:21:38.295 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-25.14:21:38.324 [http-nio-7001-exec-1] INFO  QwenPicServiceImpl     - 用户图片:https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg,提问:这是什么
+24-11-25.14:22:03.578 [http-nio-7001-exec-1] INFO  QwenPicServiceImpl     - 模型返回:这张照片展示了一位女士和一只狗在海滩上互动。女士穿着格子衬衫，坐在沙滩上，微笑着与狗握手。狗戴着项圈，看起来像是在与女士进行友好的互动。背景是海洋和天空，阳光洒在沙滩上，营造出温暖的氛围。

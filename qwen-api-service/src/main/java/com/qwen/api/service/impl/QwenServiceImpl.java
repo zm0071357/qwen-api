@@ -4,6 +4,7 @@ import com.alibaba.dashscope.aigc.generation.Generation;
 import com.alibaba.dashscope.aigc.generation.GenerationParam;
 import com.alibaba.dashscope.aigc.generation.GenerationResult;
 import com.alibaba.dashscope.common.Message;
+import com.alibaba.dashscope.common.MultiModalMessage;
 import com.alibaba.dashscope.common.Role;
 import com.alibaba.dashscope.exception.ApiException;
 import com.alibaba.dashscope.exception.InputRequiredException;
@@ -23,7 +24,7 @@ public class QwenServiceImpl implements QwenService {
     private static List<Message> messages = new ArrayList<>();
 
     /**
-     * 构建消息对象的静态方法
+     * 构建Message消息对象的静态方法
      * @param role 角色 USER / SYSTEM
      * @param content 内容 "You are a helpful assistant." / question
      * @return Message对象

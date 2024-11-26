@@ -365,3 +365,25 @@ java.lang.NullPointerException: null
 24-11-26.14:10:47.325 [http-nio-7001-exec-7] INFO  QwenCreatePicServiceImpl - 图片参考图:https://dashscope-result-sh.oss-cn-shanghai.aliyuncs.com/1d/41/20241126/9d34e27a/f95ac4a2-ca0f-4b48-a2a7-80748dffb9e3-1.png?Expires=1732685817&OSSAccessKeyId=LTAI5tQZd8AEcZX6KZV4G8qL&Signature=qeQgkqv%2Bg1ZY9USV%2BjY%2FPZ0xeZ4%3D要求:背景换成夕阳
 24-11-26.14:10:47.326 [http-nio-7001-exec-7] INFO  QwenCreatePicServiceImpl - 图像模型处理时间较长，请稍等片刻
 24-11-26.14:11:14.908 [http-nio-7001-exec-7] INFO  QwenCreatePicServiceImpl - 模型返回:ImageSynthesisResult(requestId=75f03d05-e925-9e7b-a24a-7f7ad5090a17, output=ImageSynthesisOutput(taskId=d8c4c347-3910-488c-9c10-da325fcd953c, taskStatus=SUCCEEDED, code=null, message=null, results=[{url=https://dashscope-result-sh.oss-cn-shanghai.aliyuncs.com/1d/af/20241126/9d34e27a/5626462b-91f1-4e98-b2c9-602aceda3ed9-1.png?Expires=1732687872&OSSAccessKeyId=LTAI5tQZd8AEcZX6KZV4G8qL&Signature=OSGguP2533UW78kk0Yu7FNLt9QU%3D}], taskMetrics=ImageSynthesisTaskMetrics(total=1, succeeded=1, failed=0)), usage=ImageSynthesisUsage(imageCount=1))
+24-11-26.14:12:29.966 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on ZM with PID 16664 (D:\JavaProject\qwen-api\qwen-api-web\target\classes started by 86151 in D:\JavaProject\qwen-api)
+24-11-26.14:12:29.968 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-26.14:12:30.426 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 7001 (http)
+24-11-26.14:12:30.426 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+24-11-26.14:12:30.427 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-26.14:12:30.427 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-26.14:12:30.428 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+24-11-26.14:12:30.432 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-7001"]
+24-11-26.14:12:30.433 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-26.14:12:30.433 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-26.14:12:30.498 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-26.14:12:30.498 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+24-11-26.14:12:30.706 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-7001"]
+24-11-26.14:12:30.716 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 7001 (http) with context path ''
+24-11-26.14:12:30.723 [main            ] INFO  Application            - Started Application in 1.026 seconds (JVM running for 1.694)
+24-11-26.14:12:30.724 [main            ] INFO  Application            - 通义千问服务启动
+24-11-26.14:12:58.388 [http-nio-7001-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-26.14:12:58.388 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-26.14:12:58.388 [http-nio-7001-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-11-26.14:12:58.415 [http-nio-7001-exec-1] INFO  QwenCreatePicServiceImpl - 图片参考图:https://dashscope-result-sh.oss-cn-shanghai.aliyuncs.com/1d/41/20241126/9d34e27a/f95ac4a2-ca0f-4b48-a2a7-80748dffb9e3-1.png?Expires=1732685817&OSSAccessKeyId=LTAI5tQZd8AEcZX6KZV4G8qL&Signature=qeQgkqv%2Bg1ZY9USV%2BjY%2FPZ0xeZ4%3D要求:动漫画风，一个18岁长发少女穿JK在街道上
+24-11-26.14:12:58.568 [http-nio-7001-exec-1] INFO  QwenCreatePicServiceImpl - 图像模型处理时间较长，请稍等片刻
+24-11-26.14:13:47.618 [http-nio-7001-exec-1] INFO  QwenCreatePicServiceImpl - 模型返回:ImageSynthesisResult(requestId=4541fd3e-f450-991c-977f-7e40412b87ec, output=ImageSynthesisOutput(taskId=1d3617f1-4d72-4d23-983c-477364ed0a8a, taskStatus=SUCCEEDED, code=null, message=null, results=[{url=https://dashscope-result-sh.oss-cn-shanghai.aliyuncs.com/1d/fb/20241126/9d34e27a/55cab72c-a98c-4ac2-b34e-76b22af8ecf5-1.png?Expires=1732688025&OSSAccessKeyId=LTAI5tQZd8AEcZX6KZV4G8qL&Signature=0Gn%2Bki5dC4sQzCrAElL%2FsVTVlAo%3D}], taskMetrics=ImageSynthesisTaskMetrics(total=1, succeeded=1, failed=0)), usage=ImageSynthesisUsage(imageCount=1))

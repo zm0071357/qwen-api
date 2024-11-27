@@ -77,18 +77,18 @@ public class TestController {
 
     @PostMapping("/call_with_pic/extraction")
     public String textExtraction(@RequestParam(required = false) String pic,
-                                 @RequestParam(defaultValue = "Read all the text in the image.") String question) throws NoApiKeyException, UploadFileException {
+                                 @RequestParam(defaultValue = "提取文字") String question) throws NoApiKeyException, UploadFileException {
         return qwenPicService.textExtraction(pic, question);
     }
 
     @PostMapping("/create_pic")
     public String createPic(@RequestParam String prompt) {
-        return qwenCreatePicService.createPic(prompt);
+        return qwenCreatePicService.createPic(prompt, "<auto>");
     }
 
     @PostMapping("/create_pic/with_reference")
     public String createPicWithReference(@RequestParam String pic,
                                          @RequestParam String prompt) {
-        return qwenCreatePicService.createPicWithReference(pic, prompt);
+        return qwenCreatePicService.createPicWithReference(pic, prompt, "<auto>");
     }
 }

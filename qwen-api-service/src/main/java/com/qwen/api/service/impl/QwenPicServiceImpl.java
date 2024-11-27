@@ -162,26 +162,28 @@ public class QwenPicServiceImpl implements QwenPicService {
 
     @Override
     public String textExtraction(String pic, String question) throws NoApiKeyException, UploadFileException {
+        log.info("图片:{},问题:{}", pic, question);
         MultiModalConversation conv = new MultiModalConversation();
         Map<String, Object> map = new HashMap<>();
         map.put("image", pic);
         map.put("max_pixels", "1003520");
         map.put("min_pixels", "3136");
-        MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
-                .content(Arrays.asList(
-                        map,
-                        Collections.singletonMap("text", question))).build();
-        MultiModalConversationParam param = MultiModalConversationParam.builder()
-                // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
-                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
-                .model("qwen-vl-ocr")
-                .message(userMessage)
-                .topP(0.01)
-                .temperature(0.1f)
-                .maxLength(2000)
-                .build();
-        MultiModalConversationResult result = conv.call(param);
-        return (String) result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
+        MultiModalMessage userMessage = createMultiModalMessage(Role.USER, Arrays.asList(map,
+                Collections.singletonMap("text", question)));
+        MultiModalConversationParam param = createMultiModalConversationParam(Arrays.asList(userMessage), true);
+        param.setTopP(0.01);
+        param.setTemperature(0.1f);
+        param.setMaxLength(2000);
+        StringBuilder fullContent = new StringBuilder();
+        Flowable<MultiModalConversationResult> result = conv.streamCall(param);
+        result.blockingForEach(item -> {
+            String content = (String) item.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
+            fullContent.append(content);
+            log.info("流式输出:{}",content);
+            this.messages.add(item.getOutput().getChoices().get(0).getMessage());
+        });
+        log.info("模型返回:{}", fullContent.toString());
+        return fullContent.toString();
     }
 
 

@@ -88,7 +88,7 @@ public class TestController {
 
     @PostMapping("/create_pic/with_reference")
     public String createPicWithReference(@RequestParam String pic,
-                                         @RequestParam String prompt) {
+                                         @RequestParam String prompt) throws NoApiKeyException, UploadFileException {
         return qwenCreatePicService.createPicWithReference(pic, prompt, "<auto>");
     }
 }

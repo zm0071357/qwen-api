@@ -1,5 +1,8 @@
 package com.qwen.api.service;
 
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+
 public interface QwenCreatePicService {
     /**
      * 文本生成图像
@@ -16,5 +19,5 @@ public interface QwenCreatePicService {
      * @param style 风格
      * @return 生成图像路径
      */
-    String createPicWithReference(String pic, String prompt, String style);
+    String createPicWithReference(String pic, String prompt, String style) throws NoApiKeyException, UploadFileException;
 }

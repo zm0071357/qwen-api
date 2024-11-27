@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
 @RestController
 @RequestMapping("/qwen/api")
 public class QwenController {
-
     @Resource
     private QwenPicService qwenPicService;
     @Resource
@@ -37,10 +36,12 @@ public class QwenController {
     @PostMapping("/pic")
     public String createPic(@RequestParam(name = "pic", required = false) String pic,
                             @RequestParam(name = "prompt") String prompt,
-                            @RequestParam(name = "style", required = false, defaultValue = "<auto>") String style) {
+                            @RequestParam(name = "style", required = false, defaultValue = "<auto>") String style) throws NoApiKeyException, UploadFileException {
+        // 生成新图
         if (pic == null) {
             return qwenCreatePicService.createPic(prompt, style);
         }
+        // 修改原图
         return qwenCreatePicService.createPicWithReference(pic, prompt, style);
     }
 }

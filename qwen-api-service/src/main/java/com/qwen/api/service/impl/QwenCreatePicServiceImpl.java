@@ -5,21 +5,26 @@ import com.alibaba.dashscope.aigc.imagesynthesis.ImageSynthesisParam;
 import com.alibaba.dashscope.aigc.imagesynthesis.ImageSynthesisResult;
 import com.alibaba.dashscope.exception.ApiException;
 import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
 import com.qwen.api.service.QwenCreatePicService;
+import com.qwen.api.service.QwenPicService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
 @Service
 @Slf4j
 public class QwenCreatePicServiceImpl implements QwenCreatePicService {
-    private static String exist_prompt = null;
 
-    private static String exist_negative_prompt = "";
+    @Resource
+    private QwenPicService qwenPicService;
 
     Pattern pattern = Pattern.compile("不要.*");
+
+    private static final String Describe_The_Image = "详细描述这张图片，包括主题、氛围、主题、背景、颜色、光线和阴影、线条和形状、视角与构图、风格与艺术、人物形象、情感表达等";
 
     private static ImageSynthesisParam createImageSynthesisParam(String prompt, String pic, String style, boolean isRef) {
         ImageSynthesisParam param = ImageSynthesisParam.builder()
@@ -58,25 +63,32 @@ public class QwenCreatePicServiceImpl implements QwenCreatePicService {
     @Override
     public String createPic(String prompt, String style) {
         log.info("图片要求:{}",prompt);
-        exist_prompt = prompt;
-        ImageSynthesisParam param = createImageSynthesisParam(exist_prompt, null, style, false);
+        ImageSynthesisParam param = createImageSynthesisParam(prompt, null, style, false);
         return getCallResult(param);
     }
 
     @Override
-    public String createPicWithReference(String pic, String prompt, String style) {
-        if (pattern.matcher(prompt).find()) {
-            exist_negative_prompt += prompt;
-        } else {
-            exist_prompt += prompt;
+    public String createPicWithReference(String pic, String prompt, String style) throws NoApiKeyException, UploadFileException {
+        try {
+            String negativePrompt = null;
+            String basePrompt = qwenPicService.callWithPicMultipleAndStream(pic, Describe_The_Image);
+            log.info("图片参考图:{}", pic);
+            log.info("由参考图获取的基础提示词:{}", basePrompt);
+            if (pattern.matcher(prompt).find()) {
+                negativePrompt = prompt;
+                log.info("反向提示词:{}",negativePrompt);
+            } else {
+                basePrompt += prompt;
+                log.info("正向提示词:{}",prompt);
+            }
+            ImageSynthesisParam param = createImageSynthesisParam(basePrompt, pic, style, true);
+            param.setNegativePrompt(negativePrompt);
+            return getCallResult(param);
+        } catch (ApiException | NoApiKeyException e){
+            log.info("错误信息:{}",e.getMessage());
+            return e.getMessage();
         }
-        log.info("图片参考图:{}", pic);
-        log.info("新增修改要求:{}", prompt);
-        log.info("正向要求:{}",exist_prompt);
-        log.info("反向要求:{}",exist_negative_prompt);
-        ImageSynthesisParam param = createImageSynthesisParam(exist_prompt, pic, style, true);
-        param.setNegativePrompt(exist_negative_prompt);
-        return getCallResult(param);
+
     }
 
 }
